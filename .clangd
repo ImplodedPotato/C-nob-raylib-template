@@ -1,0 +1,8 @@
+CompileFlags:
+  Add:
+    - "-Iexternal/raylib/src"
+    - "-Iexternal/nob"
+
+Diagnostics:
+  ClangTidy:
+    Remove: misc-definitions-in-headers
